@@ -2,7 +2,7 @@
 
 Revision: 7
 
-See original reference here: https://minesweepergame.com/forum/viewtopic.php?t=86&sid=58f6fcd190975333c211c109272b996d
+See original reference here: https://minesweepergame.com/forum/viewtopic.php?t=86
 
 
 ## 1. File Layout (High Level)
@@ -26,7 +26,7 @@ A RawVF file is three sections in order:
 <optionvalue> ::= {string}
 ```
 
-The description section is a list of lines in `Key: Value` form.
+The description section is a list of lines in `Key: Value` format.
 
 The exact information included varies widely, based on specific implementation.
 
@@ -40,7 +40,7 @@ The exact information included varies widely, based on specific implementation.
 <safe>  ::= 0
 ```
 
-Board section starts with a literal header line:
+Board section starts with a header line:
 
 ```text
 Board:
@@ -51,7 +51,7 @@ Then a grid of rows:
 - `*` means mine
 - `0` means safe
 
-Implementation notes:
+Note:
 
 - Row count should match `Height`.
 - Column count should match `Width`.
@@ -134,7 +134,7 @@ Question marks are generally not used by players, but they are maintained for ba
 <middle_pressed> ::= m
 ```
 
-Mouse states are not typically part of rawvf replays.
+Mouse states are not typically part of rawvf replays, but maybe someday they might be.
 
 
 ### 4.2 Board Event
@@ -181,7 +181,7 @@ Game Event IDs:
 <scrolled_axis>   ::= sx | sy
 ```
 
-Scrolling events are not currently known to be used in any replay format.
+Scrolling events are not currently known to be used in any replay format, but maybe someday they might be.
 
 
 ## List of Description Options
