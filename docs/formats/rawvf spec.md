@@ -173,10 +173,11 @@ Board Events:
 - `blast` a cell with a mine has been revealed
 - `reset` a cell is returned to its unrevealed state, with mine presence data re-randomized
 
-Note 1: the terms "closed" and "unrevealed" are treated as synonyms.
-Note 2: when a flag, or question mark, is removed, it is by using the `closed` event.
-Note 3: when a question mark becomes "unpressed", it is by using the `pressedqm` event.
-Note 4: a `reset` event implies that the cell also becomes `closed`.
+Notes:
+* Note 1: the terms "closed" and "unrevealed" are treated as synonyms.
+* Note 2: when a flag, or question mark, is removed, it is by using the `closed` event.
+* Note 3: when a question mark becomes "unpressed", it is by using the `pressedqm` event.
+* Note 4: a `reset` event implies that the cell also becomes `closed`.
 
 
 ### 4.3 Game Event
