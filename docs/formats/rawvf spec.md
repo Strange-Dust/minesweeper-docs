@@ -234,6 +234,8 @@ The items in the description are not required to follow the exact order here.
 
 Options that can be `on` or `off` are treated as `off` if not present.
 
+Description text is ***not case-sensitive***.
+
 - Main Options
   - RawVF_Version: version number of RawVF format
   - Program: clone name
