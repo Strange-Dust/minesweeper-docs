@@ -4,6 +4,8 @@ Revision: 7
 
 See original reference here: https://minesweepergame.com/forum/viewtopic.php?t=86
 
+Updated in 2026 to document various changes necessary to modernize the format.
+
 
 ## 1. File Layout
 
@@ -250,6 +252,7 @@ Options that can be `on` or `off` are treated as `off` if not present.
   - Marks: `on/off` question marks 
   - SquareSize: size (in pixels) of a square. if none, default is 16.
   - Mode: classic/ng/lucky/density/upk/cheat
+  - BoardEvents: `on/off` indicates whether or not the file includes board events
 - Cheat Settings
   - Lives: number of lives
   - Autoflag: `on/off` auto flag squares which are known mines
