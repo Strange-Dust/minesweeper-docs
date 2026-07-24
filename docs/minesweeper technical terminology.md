@@ -9,6 +9,7 @@ Defined by its width (columns), height (rows), and mine count.
 
 ### Cell
 * Alternate names: Cell, Square, Tile, "Box" (very uncommon)
+
 Each cell can have either a mine, a number, or nothing (equivalent to a zero number).
 
 When the cell has a number, the number indicates the total amount of adjacent cells that contain a mine.  Adjacency includes diagonals.
@@ -28,6 +29,7 @@ Some versions of Minesweeper support changeable square sizes, but many are fixed
 ### Board Sizes
 #### Standard Sizes
 The three named sizes are Beginner, Intermediate, and Expert.
+
 Beginner can be either 8x8 or 9x9, depending on the specific version of Minesweeper, but both sizes will have 10 mines.
 
 | Level | Dimensions | Mines |
@@ -41,6 +43,7 @@ Any board that does not match one of the four standard configurations.
 
 ### Mine
 * Alternate names: Mine, Bomb
+
 A hidden hazard placed randomly on the board. 
 
 During gameplay, mines are not visible to the player. 
@@ -69,10 +72,12 @@ The timer is incrementing, and the player is solving the board.
 
 ### Win
 * Alternate names: Won, Completed
+
 The win condition is for all non-mine cells to be revealed.
 
 ### Loss
 * Alternate names: Loss, Blast, Explosion
+
 If the player reveals a cell that contains a mine, the game is over and the player has lost.
 
 The most common term for this is "Blast".
@@ -83,12 +88,14 @@ The most common term for this is "Blast".
 
 ### Closed
 * Alternate names: Closed, Unrevealed, Hidden, Unclicked
+
 A cell that has not yet been opened or flagged. 
 
 The player cannot see whether it contains a mine.
 
 ### Revealed
 * Alternate names: Revealed, Opened, Clicked, Uncovered
+
 A cell that has been revealed by the player. 
 
 If the cell has a number, it will be shown.
@@ -113,6 +120,7 @@ Question marks provide no mechanical function; they serve only as a visual annot
 
 ### Pressed
 * Alternate names: Pressed, Depressed
+
 A transient visual state.  Does not change the cell's actual state. Used for visual feedback only.
 
 A cell that is currently being held down by the player's mouse button, but not yet released. 
@@ -124,6 +132,7 @@ Displayed with a red background, instead of the normal gray background.
 
 ### Misflag
 Alternate names: Misflag, Bad Flag
+
 A flag placed, incorrectly, on a cell that does not contain a mine, revealed at the end of the game (on a loss).
 
 Shown as a red `X` over the flag.
@@ -146,6 +155,7 @@ The entire opening (inner + border cells) will be revealed if the player reveals
 
 #### Inner Cell
 Alternate names: Inner cell, zero cell, zero, opening cell.
+
 A cell with an adjacent mine count of 0; part of the interior of an opening. 
 
 #### Border Cell
@@ -193,12 +203,14 @@ A middle-click on an opened cell always acts as a chord, regardless of the curre
 
 ### Button Down
 * Alternate names: Button down, button pressed, press
+
 The event fired when a mouse button is physically depressed. 
 
 Some actions (right click flag) are triggered on **press**.
 
 ### Button Up
 * Alternate names: Button up, button released, release
+
 The event fired when a held mouse button is physically released. 
 
 Some actions (left click, chord) are triggered on **release**.
@@ -231,6 +243,7 @@ If the flag count **exceeds** the cell's number, the chord action will not execu
 
 ### L-Chord
 * Alternate names: LCC (Left Click Chord), Super Click
+
 An alternative chording mechanism where a **left click alone** acts as a chord, without requiring the right mouse button to be held.
 
 - When L-Chord is enabled, the standard L+R chord mechanism is completely disabled. The right mouse button then **only** toggles flags, regardless of whether the left button is held.
@@ -345,6 +358,7 @@ A flag toggle is an effective right click.
 
 ### Pre-Flag
 * Alternate names: Pre-flag, preflag
+
 A flag placed **before the game timer starts** (before the player's first effective left click). 
 
 Pre-flags are present on the board at the moment the timer begins.
@@ -379,16 +393,19 @@ Display is typically in seconds, but some versions will optionally show a single
 
 ### Win
 * Alternate names: Win, Completed, Solved
+
 The game ends in a win when **all non-mine cells have been revealed**. 
 
 ### Loss
 * Alternate names: Loss, Blast, Boom
+
 The game ends in a loss if the player reveals a cell containing a mine.
 
 The mine that was revealed is shown with a red background.
 
 ### Other
 * Alternate names: Other, Unknown, Nonstandard
+
 The game ended for a reason other than a win or loss. 
 
 Common causes: board reset mid-game, program crash, incomplete recording.
@@ -399,16 +416,19 @@ Common causes: board reset mid-game, program crash, incomplete recording.
 
 ### Flag
 - Abbreviation: **FL**
+
 The player placed **at least one flag** during the game. 
 
 ### No-Flag
 - Abbreviation: **NF**
+
 The player placed **zero flags** during the entire game. 
 
 Note: NF play is widely regarded as a more difficult, more skilful, and more enjoyable way to play Minesweeper.
 
 ### Efficiency
 * Abbreviation: Eff
+
 A playstyle in which the goal is to have the highest `IOE` score possible.
 
 In other words, the goal is to solve the board using the fewest clicks.
@@ -420,17 +440,23 @@ In other words, the goal is to solve the board using the fewest clicks.
 Note: Sizes are `width` x `height`.
 ### Beginner
 * Abbreviation: Beg
+
 Size: 8x8 or 9x9
+
 Mines: 10
 
 ### Intermediate
 * Abbreviation: Int
+
 Size: 16x16
+
 Mines: 40
 
 ### Expert
 * Abbreviation: Exp
+
 Size: 30x16
+
 Mines: 99
 
 ### Custom
