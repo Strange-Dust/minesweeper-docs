@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Strange Dust -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 23" width="13" height="23">
+  <rect x="0" y="0" width="13" height="23" fill="#000000"/>
+  <path d="m 4,10 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 1,0 H 7 V 10 H 6 Z m 1,0 v 1 h 1 v -1 z m 1,0 H 9 V 10 H 8 Z m 1,0 v 1 h 1 v -1 z m 0,1 H 8 v 1 H 9 Z M 7,12 H 6 v 1 H 7 Z M 5,12 H 4 v 1 H 5 Z M 4,12 V 11 H 3 v 1 z" fill="#800000"/>
+  <path d="M 3,1 V 2 H 4 V 1 Z M 4,2 V 3 H 5 V 2 Z M 5,2 H 6 V 1 H 5 Z M 6,2 V 3 H 7 V 2 Z M 7,2 H 8 V 1 H 7 Z M 8,2 V 3 H 9 V 2 Z m 1,0 h 1 V 1 H 9 Z M 8,3 H 7 V 4 H 8 Z M 6,3 H 5 v 1 h 1 z" fill="#800000" stroke-width="0.5"/>
+  <path d="m 5,19 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 1,0 H 8 V 19 H 7 Z m 1,0 v 1 h 1 v -1 z m 1,1 v 1 h 1 V 21 Z M 8,21 H 7 v 1 H 8 Z M 6,21 H 5 v 1 H 6 Z M 5,21 V 20 H 4 v 1 z M 4,21 H 3 v 1 h 1 z" fill="#800000" stroke-width="0.5"/>
+  <path d="M 1,2 V 3 H 2 V 2 Z M 2,3 V 4 H 3 V 3 Z M 3,4 V 5 H 4 V 4 Z M 3,5 H 2 V 6 H 3 Z M 3,6 V 7 H 4 V 6 Z M 3,7 H 2 V 8 H 3 Z M 3,8 V 9 H 4 V 8 Z M 3,9 H 2 v 1 H 3 Z M 2,10 H 1 v 1 H 2 Z M 2,9 V 8 H 1 V 9 Z M 2,7 V 6 H 1 V 7 Z M 2,5 V 4 H 1 v 1 z" fill="#800000" stroke-width="0.5"/>
+  <path d="m 12,11 v -1 h -1 v 1 z M 11,10 V 9 h -1 v 1 z M 10,9 V 8 H 9 v 1 z m 0,-1 h 1 V 7 H 10 Z M 10,7 V 6 H 9 v 1 z m 0,-1 h 1 V 5 H 10 Z M 10,5 V 4 H 9 v 1 z m 0,-1 h 1 V 3 h -1 z m 1,-1 h 1 V 2 h -1 z m 0,1 v 1 h 1 V 4 Z m 0,2 v 1 h 1 V 6 Z m 0,2 v 1 h 1 V 8 Z" fill="#800000" stroke-width="0.5"/>
+  <path d="m 1,12 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 0,1 H 2 v 1 h 1 z m 0,1 v 1 h 1 v -1 z m 0,1 H 2 v 1 h 1 z m 0,1 v 1 h 1 v -1 z m 0,1 H 2 v 1 H 3 Z M 2,20 H 1 v 1 H 2 Z M 2,19 V 18 H 1 v 1 z M 2,17 V 16 H 1 v 1 z M 2,15 V 14 H 1 v 1 z" fill="#800000" stroke-width="0.5"/>
+  <path d="m 12,21 v -1 h -1 v 1 z m -1,-1 v -1 h -1 v 1 z M 10,19 V 18 H 9 v 1 z m 0,-1 h 1 v -1 h -1 z m 0,-1 V 16 H 9 v 1 z m 0,-1 h 1 v -1 h -1 z m 0,-1 V 14 H 9 v 1 z m 0,-1 h 1 v -1 h -1 z m 1,-1 h 1 v -1 h -1 z m 0,1 v 1 h 1 v -1 z m 0,2 v 1 h 1 v -1 z m 0,2 v 1 h 1 v -1 z" fill="#800000" stroke-width="0.5"/>
+  <path d="m 4,10 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 1,0 H 7 V 10 H 6 Z m 1,0 v 1 h 1 v -1 z m 1,0 H 9 V 10 H 8 Z m 1,0 v 1 h 1 v -1 z m 0,1 H 8 v 1 H 9 Z M 7,12 H 6 v 1 H 7 Z M 5,12 H 4 v 1 H 5 Z M 4,12 V 11 H 3 v 1 z" fill="#800000"/>
+</svg>

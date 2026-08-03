@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Strange Dust -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 23" width="13" height="23">
+  <rect x="0" y="0" width="13" height="23" fill="#000000"/>
+  <path d="m 1,12 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 0,1 H 2 v 1 h 1 z m 0,1 v 1 h 1 v -1 z m 0,1 H 2 v 1 h 1 z m 0,1 v 1 h 1 v -1 z m 0,1 H 2 v 1 H 3 Z M 2,20 H 1 v 1 H 2 Z M 2,19 V 18 H 1 v 1 z M 2,17 V 16 H 1 v 1 z M 2,15 V 14 H 1 v 1 z" fill="#800000" stroke-width="0.5"/>
+  <path d="M 2,1 V 2 H 3 V 3 H 4 V 4 H 9 V 3 h 1 V 2 h 1 V 1 H 10 4 3 Z" fill="#ff0000"/>
+  <path d="M 11,22 V 21 H 10 V 20 H 9 V 19 H 4 v 1 H 3 v 1 H 2 v 1 h 1 6 1 z" fill="#ff0000"/>
+  <path d="m 1,2 v 2 5 2 H 2 V 10 H 3 V 9 H 4 V 4 H 3 V 3 H 2 V 2 Z" fill="#ff0000"/>
+  <path d="M 12,11 V 9 4 2 H 11 V 3 H 10 V 4 H 9 v 5 h 1 v 1 h 1 v 1 z" fill="#ff0000"/>
+  <path d="m 12,21 v -2 -5 -2 h -1 v 1 h -1 v 1 H 9 v 5 h 1 v 1 h 1 v 1 z" fill="#ff0000"/>
+  <path d="m 3,10 v 1 H 2 v 1 h 1 v 1 h 7 v -1 h 1 v -1 h -1 v -1 z" fill="#ff0000" stroke-width="0.5"/>
+</svg>

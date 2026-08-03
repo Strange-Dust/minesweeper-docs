@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Strange Dust -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17">
+  <rect x="0" y="0" width="17" height="17" fill="#ff0000"/>
+  <line x1="0" y1="0.5" x2="17" y2="0.5" stroke="#808080" stroke-width="1"/>
+  <line x1="0.5" y1="0" x2="0.5" y2="17" stroke="#808080" stroke-width="1"/>
+</svg>

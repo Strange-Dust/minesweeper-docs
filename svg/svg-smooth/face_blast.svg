@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Strange Dust -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26" height="26">
+  <rect x="0" y="0" width="26" height="26" fill="#c0c0c0"/>
+  <path d="M 0,26 V 0 H 26 L 23,3 H 3 v 20 z" fill="#ffffff"/>
+  <path d="M 26,0 V 26 H 0 L 3,23 H 23 V 3 Z" fill="#808080"/>
+  <ellipse cx="13.499999" cy="13.5" rx="8.0501328" ry="8.0501337" fill="#ffff00" stroke="#000000" stroke-width="0.899733"/>
+  <path d="m 9.25,17.75 c 2.75,-3 5.75,-3 8.5,0" fill="none" stroke="#000000" stroke-width="1.27583"/>
+  <path d="M 0,0 V 1 26 H 1 V 1 H 26 V 0 H 1 Z" fill="#808080" stroke-width="0.5"/>
+  <g transform="translate(0.01977921,8.7260371e-5)">
+    <path d="M 17.089098 -4.728663 L 17.089098 -3.7287698 L 18.588937 -3.7287698 L 18.588937 -2.22893 L 19.588831 -2.22893 L 19.588831 -3.7287698 L 21.08867 -3.7287698 L 21.08867 -4.728663 L 19.588831 -4.728663 L 19.588831 -6.2285027 L 18.588937 -6.2285027 L 18.588937 -4.728663 L 17.089098 -4.728663 z " fill="#000000" stroke-width="0.5" transform="rotate(45)"/>
+  </g>
+  <g transform="translate(-5.9804549,8.7260371e-5)">
+    <path d="m 17.089098,-4.728663 v 0.9998932 h 1.499839 V -2.22893 h 0.999894 V -3.7287698 H 21.08867 V -4.728663 h -1.499839 v -1.4998397 h -0.999894 v 1.4998397 z" fill="#000000" stroke-width="0.5" transform="rotate(45)"/>
+  </g>
+</svg>

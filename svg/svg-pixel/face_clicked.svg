@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Strange Dust -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="26" height="26">
+  <rect x="-4.7683716e-07" y="0" width="26" height="26" fill="#c0c0c0" stroke-width="0.5"/>
+  <path d="m 0,0 v 2 23 h 1 v 1 H 26 V 25 1 H 25 V 0 H 2 Z M 2,2 H 25 V 25 H 2 Z" fill="#808080" stroke-width="0.5"/>
+  <path d="M 12,7 V 7.359375 7.71875 8 H 10 V 9 H 9 v 1 H 8 v 2 H 7 v 5 h 1 v 2 h 1 v 1 h 1 v 1 h 2 v 1 h 5 v -1 h 2 v -1 h 1 v -1 h 1 v -2 h 1 V 12 H 21 V 10 H 20 V 9 H 19 V 8 H 17 V 7.71875 7.359375 7 Z" fill="#ffff00" stroke-width="0.5"/>
+  <path d="m 11,11 v 2 h 2 v -2 z m 5,0 v 2 h 2 v -2 z m -6,5 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m 1,1 v 1 h 5 v -1 z m 5,0 h 1 v -1 h -1 z m 1,-1 h 1 v -1 h -1 z" fill="#000000" stroke-width="0.5"/>
+  <path d="m 12,6 v 1 h 5 V 6 Z m 5,1 v 1 h 1 1 V 7 h -1 z m 2,1 v 1 h 1 V 8 Z m 1,1 v 1 h 1 V 9 Z m 1,1 v 1 1 h 1 v -1 -1 z m 1,2 v 1 1 1 1 1 h 1 v -1 -1 -1 -1 -1 z m 0,5 h -1 v 1 1 h 1 v -1 z m -1,2 h -1 v 1 h 1 z m -1,1 h -1 v 1 h 1 z m -1,1 h -1 -1 v 1 h 1 1 z m -2,1 h -5 v 1 h 5 z m -5,0 v -1 h -1 -1 v 1 h 1 z M 10,21 V 20 H 9 v 1 z M 9,20 V 19 H 8 v 1 z M 8,19 V 18 17 H 7 v 1 1 z M 7,17 V 16 15 14 13 12 H 6 v 1 1 1 1 1 z M 7,12 H 8 V 11 10 H 7 v 1 z M 8,10 H 9 V 9 H 8 Z M 9,9 h 1 V 8 H 9 Z m 1,-1 h 1 1 V 7 h -1 -1 z" fill="#000000" stroke-width="0.5"/>
+</svg>

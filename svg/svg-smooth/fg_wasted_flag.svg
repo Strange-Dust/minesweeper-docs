@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Strange Dust -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+  <path d="M 8 3.5 L 8 10 L 6 10 L 6 11 L 4 11 L 4 13 L 12 13 L 12 11 L 10 11 L 10 10 L 8.9902344 10 L 8.9902344 3.5 L 8 3.5 z " fill="#ff0000"/>
+  <path d="m 4,5.5 5,3 v -6 z" fill="#ffffff"/>
+</svg>
