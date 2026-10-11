@@ -72,7 +72,7 @@ Note:
 ```text
 <events>    ::= Events:\n <eventlist>
 <eventlist> ::= <event> <eventlist> | <event>
-<event>     ::= <mouse_event> | <board_event> | <game_event> | <scrolling_event> | <board_reset_event>
+<event>     ::= <time_marker> | <mouse_event> | <board_event> | <game_event> | <scrolling_event> | <board_reset_event>
 ```
 
 Events section starts with a literal header line:
@@ -82,6 +82,27 @@ Events:
 ```
 
 After that, each line is one event.  Exception: board change event.
+
+#### Time format
+
+```text
+<elapsed_time> ::= <second>.<hundredth>
+				 | <second>.<thousandth>
+				 | -<second>.<hundredth>
+				 | -<second>.<thousandth>
+```
+
+Time in seconds, with 3 decimal places.
+
+Negative time is allowed.
+
+#### Time Marker
+
+A time marker is similar to an event, except that it is just the time alone.
+
+The main purpose is to allow board events at any time, without requiring a corresponding mouse event.
+
+The entire line consists of the time (in the format shown above), with no additional information.
 
 ### 4.1 Mouse Event
 
@@ -110,18 +131,7 @@ Mouse events are composed of 4 parts:
 - column & row coordinates
 - X, Y coordinates
 
-#### Time format:
-
-```text
-<elapsed_time> ::= <second>.<hundredth>
-				 | <second>.<thousandth>
-				 | -<second>.<hundredth>
-				 | -<second>.<thousandth>
-```
-
-Time in seconds, with 3 decimal places.
-
-#### Mouse event IDs:
+#### Mouse event IDs
 
 - `lc` left click down
 - `lr` left release
@@ -163,9 +173,12 @@ A board event represents something happening on the board, as a result of player
 
 A replay without board events will require a Minesweeper game simulation in order to recreate what happened during the game.
 
-Board events use the time of the preceeding mouse event.
+Board events use the time of the preceeding event.
 
-For example, when revealing all the cells of an opening, the board events will include which number is revealed, and the grid (column, row) coordinates for each cell revealed.
+Example:
+* When revealing all the cells of an opening, 
+* the board events will include which number is revealed, 
+* and the grid (column, row) coordinates for each cell revealed.
 
 Board Events:
 - `number#` a cell is revealed, showing this number
@@ -183,7 +196,7 @@ Notes:
 * Note 2: when a flag, or question mark, is removed, it is by using the `closed` event.
 * Note 3: when a question mark becomes "unpressed", it is by using the `pressedqm` event.
 * Note 4: a `reset` event implies that the cell also becomes `closed`.
-
+* Note 5: If board events are present prior to the `0.000s start` line, and there is no preceeding event with a time, they should be treated as occurring at `-0.001s`.
 
 ### 4.3 Game Event
 
@@ -192,7 +205,7 @@ Notes:
 <game_event_id> ::= start | blast | boom | lost | defeat | won | nonstandard
 ```
 
-The elapsed time is optional.  If not present, the time of the preceeding mouse event is used.
+The elapsed time is optional.  If not present, the time of the preceeding event is used.
 
 Game Event IDs:
 - `start` the timer has started and the game has begun
@@ -216,6 +229,8 @@ Scrolling events are not currently known to be used in any replay format, but ma
 
 
 ### 4.5 Board Change Event
+
+(Not to be confused with board event)
 
 A board change event can be used for game modes in which mine locations may change during game play.
 
