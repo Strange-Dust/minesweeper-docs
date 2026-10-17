@@ -104,6 +104,18 @@ The main purpose is to allow board events at any time, without requiring a corre
 
 The entire line consists of the time (in the format shown above), with no additional information.
 
+#### Coordinate Format
+
+All coordinates are in (X, Y) or (Column, Row) format.
+
+Coordinates for cells are 1-based, meaning that cell (1, 1) is the top-left cell.
+
+A zero-value for a row or column is used to represent areas that are off the grid.
+
+Coordinates for pixels are 0 based, meaning that location (0, 0) is the top-left corner of cell (1, 1).
+
+Negative values for pixels are used to represent areas that are off the grid.
+
 ### 4.1 Mouse Event
 
 ```text
